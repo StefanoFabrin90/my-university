@@ -12,7 +12,7 @@ class DegreeController extends Controller
     {
 
         $degrees = Degree::all();
-        dump($degrees);
+        //dump($degrees);
 
         return view('degrees', compact('degrees'));
     }

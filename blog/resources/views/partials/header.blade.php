@@ -1,4 +1,4 @@
-<header>
+<header class="main-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('home')}}">UNIVERSITY</a>
@@ -18,7 +18,7 @@
                     <li class="nav-item">
                         <a class="nav-link
                             @if(Request::route()->getName() === 'degrees') active @endif" aria-current="page" href="{{ route('degrees')}}">
-                            Deegrees
+                            Degrees
                         </a>
                     </li>
                 </ul>

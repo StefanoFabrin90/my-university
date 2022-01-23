@@ -1,0 +1,23 @@
+.degree-main {
+    h3 {
+        color: dodgerblue;
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            width: 21rem;
+            margin: 8px;
+
+            .btn {
+                background-color: dodgerblue;
+                color: white;
+                &:hover {
+                    background-color: #0d6efd;
+                }
+            }
+        }
+    }
+}
